@@ -1,7 +1,12 @@
-# SVGTutle
+# SVGTurtle
+This is a rudimentary turtle geometry module that is working reasonably well in Jupyter and
+Collabratory to produce SVG output for laser cutter and axiDraw plotter.
 
-This is a rudimentary turtle geometry module that is working reasonably well in Jupyter and Collabratory.
+note: depends on the DrawSVG module from https://github.com/petercollingridge/DrawSVG
+
 ```python
+from SVGTurtle import Turtle
+
 t = Turtle(200, 200)
 
 def arc(s):
